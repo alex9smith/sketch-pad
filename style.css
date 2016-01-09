@@ -3,16 +3,19 @@ body {
 }
 
 div.board-container {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
+	margin: auto;
 	margin-top: 20px;
 	height: 500px;
+	width: 600px;
 }
 
 .board-container div {
 	background-color: white;
-	width: 10px;
-	height: 10px;
 	border: 1px solid #f1f1f1;
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .board-container div.active {
